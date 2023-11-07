@@ -23,7 +23,7 @@ This C++ program is an interactive text-based application that allows the user t
    - If the user's name is "Remilia," "remilia," "mistr00s," or "remi," it enters another set of conditions:
      - It greets the user as "Remilia Scarlet."
      - Asks whether to cover the sky with Scarlet Mist and reads the input into `scarlet`.
-     - If `scarlet` is "y" or "yes," it asks for a passcode (presumably a reference to a doujin).
+     - If `scarlet` is "y" or "yes," it asks for a passcode (presumably a reference to a doujin). Otherwise, it will just greet you.
      - If the correct passcode is entered, it covers the sky with Scarlet Mist, allowing the user to go outside without a parasol.
      - If the passcode is incorrect, it displays "Incorrect passcode."
 
